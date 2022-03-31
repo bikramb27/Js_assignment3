@@ -1,0 +1,56 @@
+body > table {    /* for body*/
+  width: 100%;
+}
+
+table {                      /*for main table*/
+  border-collapse: collapse;
+}
+table.list {
+  width: 100%;
+}
+
+td {                           /*for table data*/
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+th {                                /*for table header*/
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+input[type="text"],                /*for text and number inputs box*/
+input[type="number"] {
+  background-color: white;
+  margin: 10px auto auto 10px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+input[type="submit"] {               /* for submit button*/
+  width: 60px;
+  height: 30px;
+  background-color: wheat;
+  color: black;
+  margin: 10px 4px 4px 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+form div.form-action-buttons {      /* aling the action button*/
+  text-align: right;
+}
+
+a {                                       /* for edit and delete*/
+  cursor: pointer;
+  color: blue;
+  margin-right: 5px;
+}
+.nextpage {                     /*next page button*/
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+} 
+.previouspage {                  /*previous page button*/
+  margin: 290px auto auto 10px;
+}
